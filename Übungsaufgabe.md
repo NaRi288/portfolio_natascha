@@ -1,14 +1,2 @@
-Zahlen_Ratespiel
-
-import random
-
-geheimzahl = random.randint(1,2)
-geratene_zahl = int(input("Gib hier deine Zahl ein: "))
-
-while geratene_zahl <= geheimzahl or geratene_zahl >= geheimzahl:
-     print (int(input("Deine Zahl ist leider falsch , versuche es nocheinmal")))    
-     if geratene_zahl == geheimzahl:
-         print("WOW")
-         break
-print("Du hast die Zahl erraten")
-     
+Hier kommen verschiedene Übungsaufgaben als Markdown herein. 
+Zu simple, als das man ausführen wollte. 
