@@ -1,0 +1,32 @@
+
+#Zahlen_raten_Spiel
+
+import random
+
+geheimzahl = random.randint(1,10)
+geratene_zahl = int(input("Deine geratene Zahl: "))
+ 
+if geratene_zahl < geheimzahl:
+     print("Deine Zahl ist zu niedrig")
+elif geratene_zahl == geheimzahl:
+    print("Deine Zahl ist richtig") 
+    
+else:
+    print("Deine Zahl ist zu hoch")
+
+
+Schritt 4:
+
+import random
+
+geheimzahl = random.randint(1,2)
+geratene_zahl = int(input("Gib hier deine Zahl ein: "))
+
+while geratene_zahl <= geheimzahl or geratene_zahl >= geheimzahl:
+     print (int(input("Deine Zahl ist leider falsch , versuche es nocheinmal")))    
+     if geratene_zahl == geheimzahl:
+         print("WOW")
+         break
+print("Du hast die Zahl erraten")
+     
+
